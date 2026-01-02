@@ -1,0 +1,13 @@
+
+sources:
+  - name: weather
+    database: demo_udemy_snow_dbt
+    schema: weather
+    tables:
+      - name: weather_table
+  
+  - name: bikes
+    database: demo_udemy_snow_dbt
+    schema: bikes
+    tables:
+      - name: bike_table
