@@ -1,7 +1,7 @@
 WITH trip AS (
     SELECT
         ride_id,
-        rideable_type,
+        -- rideable_type,
         DATE(started_at) AS trip_date,
         start_station_id,
         end_station_id,
